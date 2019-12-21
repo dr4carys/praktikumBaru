@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">praktikum</string>
+    <string name="title_activity_aktivitas_test">aktivitasTest</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="account">Favorite</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_testing123">testing123</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_in">Sign in</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="token">Token : %s</string>
+    <string name="news">News</string>
+    <string name="promo">Promo</string>
+    <string name="show_token">Show Token</string>
+</resources>

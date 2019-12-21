@@ -1,0 +1,72 @@
+package com.example.lordbramasta.praktikum.data;
+
+public class NewsData {
+    private String id, judul, datetime, isi, gambar,max,noHp;
+
+    public NewsData() {
+    }
+
+    public NewsData(String id, String judul, String datetime, String isi, String gambar , String noHp, String max) {
+        this.id = id;
+        this.judul = judul;
+        this.datetime = datetime;
+        this.gambar = gambar;
+        this.isi = isi;
+        this.noHp= noHp;
+        this.max = max;
+
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getMax(){
+        return max;
+    }
+    public void setMax(String max){
+        this.max = max;
+    }
+    public String getNoHp(){
+        return noHp;
+    }
+    public void setNoHp(String noHp){
+        this.noHp = noHp;
+    }
+
+    public String getJudul() {
+        return judul;
+    }
+
+    public void setJudul(String judul) {
+        this.judul = judul;
+    }
+
+    public String getGambar() {
+        return gambar;
+    }
+
+    public void setGambar(String gambar) {
+        this.gambar = gambar;
+    }
+
+    public String getDatetime() {
+        return datetime;
+    }
+
+    public void setDatetime(String datetime) {
+        this.datetime = datetime;
+    }
+
+    public String getIsi() {
+        return isi;
+    }
+
+    public void setIsi(String isi) {
+        this.isi = isi;
+    }
+
+}

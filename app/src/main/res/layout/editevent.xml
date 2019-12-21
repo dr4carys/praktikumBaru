@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_refresh_layout_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/gambar_event"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY" />
+<!--            <ImageView-->
+<!--                android:id="@+id/imageEvent"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_gravity="center" />-->
+            <Button
+                android:id="@+id/btn_up_image_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="#448AFF"
+                android:textColor="#fff"
+                android:text="up image"
+                android:textStyle="bold" />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/TextView1"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_marginBottom="5dp"-->
+            <!--                android:layout_marginTop="5dp"-->
+            <!--                android:text="Praktikum klmpk 11 jaya"-->
+            <!--                android:textSize="18dip"-->
+            <!--                android:textStyle="bold" />-->
+
+            <!--            <View-->
+            <!--                android:id="@+id/View1"-->
+            <!--                android:layout_width="fill_parent"-->
+            <!--                android:layout_height="1dp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:background="#448AFF" />-->
+
+            <TextView
+                android:id="@+id/TextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dip"
+                android:text="tambah event"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/txt_namaEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="Nama Event"
+                android:inputType="text"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_tanggalEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="tanggal Event"
+                android:inputType="date"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/txt_deskripsiEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="deskripsi event"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/txt_noHp_Event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="no hp"
+                android:inputType="phone"
+                />
+            <EditText
+                android:id="@+id/txt_lokasiEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="Lokasi event"
+                android:inputType="text"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/txt_maxOrang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="max orang"
+                android:inputType="number"
+                android:password="true" />
+
+            <Button
+                android:id="@+id/btn_UploadEvent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="#00555555"
+                android:text="UploadEvent"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="#448AFF"
+                android:text="edit"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
